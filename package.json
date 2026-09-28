@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/proberesume1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probe tool used to detect when GitHub lifts repository creation throttling.",
+  "bin": {
+    "proberesume1": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/proberesume1.git"
+  },
+  "homepage": "https://theworker02.github.io/proberesume1/",
+  "keywords": [
+    "probe",
+    "resume",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
